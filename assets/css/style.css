@@ -28,4 +28,17 @@ body {
     border-width: 1px;
     border-color:aqua;
     border-style: solid;
+    background-image: url("../img/fondo-menu-01.png");
+    background-size: cover;
+}
+
+.bottom-section {
+    padding-top:100px;
+    background-image: url("../img/fondo-02.png");
+    background-size: cover;
+}
+
+.newsletter-container {
+    background-color: rgb(10, 10, 110);
+    text-align: center;
 }
