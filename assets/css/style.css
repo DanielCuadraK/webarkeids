@@ -4,9 +4,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'FreePixel';
+    src: url('../fonts/FreePixel.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .section-1 {
-    
 }
 
 .inner-section {
@@ -15,8 +21,9 @@
 
 body {
     color: white;
-    font-family: 'conthrax';
+    font-family: 'FreePixel';
     background-image: url("../img/fondo-01.png");
+    font-size: 24px;
 }
 
 .header-navbar {
@@ -45,9 +52,10 @@ body {
 
 .map-responsive {
     overflow: hidden;
-    padding-bottom: 56.25%;
+    padding-bottom: 100%;
     position: relative;
     height: 0;
+    margin-top:20px;
 }
 
 .map-responsive iframe {
