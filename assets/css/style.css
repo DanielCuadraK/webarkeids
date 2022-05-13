@@ -57,3 +57,12 @@ body {
     width: 100%;
     position: absolute;
 }
+
+.promo-image {
+    padding:20px;
+}
+
+.list-group-item {
+    color:white;
+    background:none;
+}
