@@ -12,9 +12,6 @@
 }
 
 
-.section-1 {
-}
-
 .inner-section {
     padding:25px;
 }
@@ -31,6 +28,10 @@ body {
     text-align:right;
 }
 
+.footer {
+    background-image: url("../img/fondo-01.png");
+}
+
 .menu-section{
     border-width: 1px;
     border-color:aqua;
@@ -41,7 +42,7 @@ body {
 
 .bottom-section {
     padding-top:100px;
-    background-image: url("../img/fondo-02.png");
+    background-image: url("../img/fondo-02.jpg");
     background-size: cover;
 }
 
