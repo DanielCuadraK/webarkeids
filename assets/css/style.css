@@ -1,7 +1,13 @@
 @font-face {
     font-family: 'conthrax';
-    src: url('../fonts/conthrax-sb.ttf');
+    src: url('../fonts/Conthrax Regular.otf');
     font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'conthrax';
+    src: url('../fonts/Conthrax Bold.otf');
+    font-weight: bold;
     font-style: normal;
 }
 @font-face {
@@ -11,16 +17,23 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'TitilliumWeb';
+    src: url('../fonts/TitilliumWeb-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .inner-section {
-    padding:25px;
+    padding: 25px;
 }
 
 body {
     color: white;
-    font-family: 'FreePixel';
+    font-family: conthrax;
     background-image: url("../img/fondo-01.png");
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .header-navbar {
@@ -74,4 +87,17 @@ body {
 .list-group-item {
     color:white;
     background:none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+    padding-bottom:10px;
+}
+
+.img-fluid {
+    padding:15px;
+}
+
+.link-active {
+    color:white !important;
 }
