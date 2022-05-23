@@ -24,6 +24,10 @@
     font-style: normal;
 }
 
+.row {
+    padding-bottom: 30px;
+}
+
 
 .inner-section {
     padding: 25px;
@@ -34,17 +38,16 @@ body {
     font-family: conthrax;
     background-image: url("../img/fondo-01.png");
     font-size: 16px;
-    text-align:justify;
 }
 
 .header-navbar {
-    background-image: url("../img/fondo-01.png");
+    background-color:#070c33;
     text-align:right;
-    font-size:1.5em;
+    font-size:1.2em;
 }
 
 .footer {
-    background-image: url("../img/fondo-01.png");
+    background-color: #070c33;
 }
 
 .menu-section{
@@ -89,6 +92,7 @@ body {
 .list-group-item {
     color:white;
     background:none;
+    font-size:1.5em;
 }
 
 h1, h2, h3, h4, h5 {
@@ -96,8 +100,8 @@ h1, h2, h3, h4, h5 {
     padding-bottom:10px;
 }
 
-.img-fluid {
-    padding:15px;
+.img-custom {
+    padding: 15px;
 }
 
 .link-active {
@@ -108,3 +112,44 @@ h1, h2, h3, h4, h5 {
     background-image: url('../img/fondo-paquetes-liso.jpg'); 
     background-repeat: repeat;
 }
+
+.img-container {
+    padding-bottom:5px;
+}
+
+.img-container-center {
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.img-container-left{
+    padding-right:5px;
+}
+
+.img-container-right {
+    padding-left: 5px;
+}
+
+.img-row {
+    padding-bottom:5px;
+}
+
+
+
+#menu-search-box{
+    background-color:transparent;
+    color:white;
+}
+
+.section-1 {
+    max-width: 1440px;
+    font-size:20px;
+}
+
+@media screen and (max-width: 600px) {
+    .section-1 {
+        padding: 15px;
+        font-size:16px;
+    }
+}
+
