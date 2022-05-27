@@ -134,6 +134,10 @@ h1, h2, h3, h4, h5 {
     padding-bottom:5px;
 }
 
+.contenedor-cotizador{
+    padding:50px;
+    max-width:800px;
+}
 
 
 #menu-search-box{
